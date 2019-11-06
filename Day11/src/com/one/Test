@@ -1,0 +1,18 @@
+1、请说出基本类型对应的八个包装类分别是什么
+    byte--Byte
+    int--Integer
+    boolean-Boolean
+    char--Character
+    double--Double
+    float--Float
+    long--Long
+    short--Short
+2、请说出如何把字符串转换为对应的基本数据类型，有什么注意点？
+    1、除了Character类以外，其他包装类可以通过parseXxx静态方法将字符串转化为对应的基本类型
+    public static byte pareseByte(String s)
+    public static byte pareseInteger(String s)
+    public static byte pareseBoolean(String s)
+    public static byte pareseDouble(String s)
+    public static byte pareseFloat(String s)
+    public static byte pareseLong(String s)
+    public static byte pareseShort(String s)

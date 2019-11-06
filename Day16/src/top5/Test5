@@ -1,0 +1,15 @@
+ 
+6． 训练案例6
+public class Test07 implements Runnable {
+    public static void main(String[] args) { 
+         Thread t = new Thread(new Test07());         
+         t.start();     
+     }     
+     public void run(int num) {         
+         for (int i = 0; i < num; i++) {             
+             System.out.println(i);          
+         }     
+     }
+}
+该代码不能运行，编译报错,实现Runnable接口，并未实现Runnable中run方法
+该类中的run方法为自定义方法

@@ -1,0 +1,4 @@
+1、自动装箱以及自动拆箱的理解
+自动装箱：Integer i = 4;//自动装箱。相当于Integer i = Integer.valueOf(4);
+自动拆箱：int i = a;    //自动拆箱 相当于int i = a.intValue()  【注】a是Integer类型，使用intValue方法变成基本类型
+
